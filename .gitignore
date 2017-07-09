@@ -1,0 +1,6 @@
+*.uuid
+*.db
+.HA_VERSION
+secrets.yaml
+deps
+tts
