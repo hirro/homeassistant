@@ -1,5 +1,10 @@
-*.uuid
+*.sqlite
 *.db
+*.log
+*.log
+*.uuid
+*.sqlite
+*.txt
 .HA_VERSION
 secrets.yaml
 deps

@@ -1,0 +1,23 @@
+ios_jimpa:
+  name: Jim
+  mac: 1c:91:48:93:2b:e9
+  track: yes
+  picture: 
+  hide_if_away: no
+  gravatar: jim@arnellconsulting.com
+ios_jonna_1:
+  name: Jonna 1
+  mac: 90:60:f1:e4:fe:26
+  picture: 
+  track: yes
+  hide_if_away: no
+  gravatar: jonna@arnellconsulting.com
+
+ios_jonna_2:
+  name: Jonna 2
+  mac: 48:3b:38:59:1a:b9
+  picture: 
+  track: yes
+  hide_if_away: no
+  gravatar: jonna@arnellconsulting.com
+

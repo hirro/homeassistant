@@ -1,0 +1,3 @@
+script.reload_configuration_from_git_and_restart:
+  friendly_name: Pull latest from git and restart
+  icon: mdi:autorenew

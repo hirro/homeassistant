@@ -1,0 +1,12 @@
+alias: "Apple TV stopped playing"
+trigger:
+  - platform: state
+    entity_id: media_player.apple_tv
+    from: 'playing'
+condition:
+  - condition: sun
+    after: sunset
+    after_offset: "-1:00:00"
+action:
+  - service: homeassistant.turn_on
+    entity_id: switch.tellstick_3_switch

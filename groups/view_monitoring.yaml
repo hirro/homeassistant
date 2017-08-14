@@ -1,0 +1,8 @@
+name: Nodes
+view: yes
+icon: mdi:desktop-tower
+entities:
+- group.sensor_pi
+- group.sensor_epyon
+- group.sensor_zero
+- group.sensor_unicorn

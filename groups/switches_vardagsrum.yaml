@@ -1,0 +1,5 @@
+name: Vardagsrum
+entities:
+  - switch.tellstick_3_switch
+  - switch.tellstick_7_switch
+  - switch.tellstick_11_switch    

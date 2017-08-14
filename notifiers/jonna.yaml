@@ -1,0 +1,3 @@
+platform: ios
+name: ios_jonna
+target: !secret ios_pushtoken_jonna

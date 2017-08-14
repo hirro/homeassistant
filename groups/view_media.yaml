@@ -1,0 +1,5 @@
+name: Media
+view: yes
+icon: mdi:television
+entities:
+- media_player.apple_tv 

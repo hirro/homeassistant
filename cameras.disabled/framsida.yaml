@@ -1,0 +1,5 @@
+# platform: generic
+# name: Framsida 
+# still_image_url: http://192.168.1.76/dms?nowprofileid=1&0.09359918229807196 
+# username: admin
+# password: !secret dlink_pw_4

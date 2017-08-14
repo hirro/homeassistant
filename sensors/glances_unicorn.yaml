@@ -1,0 +1,8 @@
+platform: glances
+host: 192.168.1.21
+name: unicorn
+resources:
+  - 'disk_use_percent'
+  - 'memory_use_percent'
+  - 'swap_use_percent'
+  - 'processor_load'

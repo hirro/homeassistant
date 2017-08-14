@@ -1,30 +1,28 @@
 homeassistant:
-  # Name of the location where Home Assistant is running
   name: Home
-  # Location required to calculate the time the sun rises and sets
   latitude: !secret latitude_home
   longitude: !secret longitude_home
-  # Impacts weather/sunrise data (altitude above sea level in meters)
   elevation: 25
-  # metric for Metric, imperial for Imperial
   unit_system: metric
-  # Pick yours from here: http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
   time_zone: Europe/Stockholm
+  customize: !include_dir_merge_named customizations
 
 # Show links to resources in log and frontend
-introduction:
+#introduction:
 
 # Enables the frontend
 frontend:
+
+# Set recorder options
+recorder:
+  purge_days: 3
 
 # Enables configuration UI
 config:
 
 http:
-  # Uncomment this to add a password (recommended!)
   api_password: !secret http_password
-  # Uncomment this if you are using SSL or running in Docker etc
-  # base_url: example.duckdns.org:8123
+  base_url: !secret http_host
 
 # Checks for available updates
 # Note: This component will send some information about your system to
@@ -33,7 +31,7 @@ http:
 # https://home-assistant.io/blog/2016/10/25/explaining-the-updater/
 updater:
   # Optional, allows Home Assistant developers to focus on popular components.
-  # include_used_components: true
+  include_used_components: true
 
 # Discover some devices automatically
 discovery:
@@ -50,63 +48,55 @@ logbook:
 # Track the sun
 sun:
 
-# Weather Prediction
-sensor:
-  platform: yr
-
-
-
 # Text to speech
 tts:
   platform: google
 
-group: !include groups.yaml
-automation: !include automations.yaml
-
-
 ##ZWave Devices
-# zwave:
-#   usb_path: /dev/tty.usbmodem1411
-#  polling_interval: 60000
-#  autoheal: true
+zwave:
+  usb_path: /dev/ttyACM0
+  polling_interval: 60000
+  autoheal: true
 
 # RFXCOM
 rfxtrx:
-  device: /dev/tty.usbserial-A12LL9M
+  device: /dev/ttyUSB0
   debug: True
 
-binary_sensor:
-  platform: rfxtrx
-  automatic_add: True
-  debug: True
-  devices:
-    0b110000015c79aa0a010f80:
-      name: Movement Arbetsrum
-      device_class: motion
-      off_delay:
-        seconds: 5      
+# IOS component
+ios:
 
-light:
-  - platform: rfxtrx
-    automatic_add: True
-    devices:
-      0b11000f004bf64604000080:
-        name: Arbetsrum    
+# include_dir_named: maps filename => content of file.
+shell_command: !include_dir_named shell_commands
+input_boolean: !include_dir_named input_booleans
+input_select: !include_dir_named input_selects
+script: !include_dir_named scripts
+group: !include_dir_named groups
 
-# switch:
-#   platform: rfxtrx
-#   automatic_add: True
-  # devices:
-  #   0b110000015c79aa0a010f80:
-  #     name: Movement Arbetsrum
+# include_dir_list: Will return the content of a directory as a list with each file content being an entry in the list.
+sensor: !include_dir_list sensors
+binary_sensor: !include_dir_list binary_sensors
+scene: !include_dir_list scenes
+camera: !include_dir_list cameras
+device_tracker: !include_dir_list device_trackers
+switch: !include_dir_list switches
+automation: !include_dir_list automations
+media_player: !include_dir_list media_players
+#image_processing: !include_dir_list image_processing
+notify: !include_dir_list notifiers
+
+logger:
+  default: info
+  logs:
+    # homeassistant.components.camera: critical
+    homeassistant.core: warning
+    homeassistant.components.media_player.spotify: info    
+    homeassistant.components.http: error
+    homeassistant.components.image_processing: debug
+    homeassistant.components.zwave: error
+    homeassistant.components.websocket_api: error
+    homeassistant.components.rfxtrx: info
+    custom_components.camera.opencv: debug
 
 
-notify:
-  # - platform: ios  
-  - platform: pushbullet
-    api_key: !secret pushbullet_api_key
-    name: pushbullet
-
-media_player:
-  - platform: pioneer
-    host: 192.168.1.179
+      

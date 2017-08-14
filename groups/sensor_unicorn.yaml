@@ -1,0 +1,7 @@
+name: Unicor
+entities:
+  - sensor.epyon_uptime
+  - sensor.epyon_cpu_load
+  - sensor.epyon_disk_use
+  - sensor.epyon_ram_use
+  - sensor.epyon_swap_use

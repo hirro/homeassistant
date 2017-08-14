@@ -1,0 +1,62 @@
+
+# Allrum
+switch.tellstick_12_switch:
+  friendly_name: Ljus under Soffan
+  icon: mdi:lightbulb
+  emulated_hue: false
+
+switch.tellstick_6_switch:
+  friendly_name: Vägglampa
+  icon: mdi:lightbulb
+  emulated_hue: false
+
+# Vardagsrum
+switch.tellstick_3_switch:
+  friendly_name: Vägglampan vid fönster
+  icon: mdi:lightbulb
+  emulated_hue: false    
+switch.tellstick_7_switch:
+  friendly_name: Vägglampan vid spegeln
+  icon: mdi:lightbulb
+  emulated_hue: false    
+switch.tellstick_11_switch:
+  friendly_name: Hall
+  icon: mdi:lightbulb
+  emulated_hue: false
+
+# Niobes rum
+switch.tellstick_9_switch:
+  friendly_name: Fönster
+  icon: mdi:lightbulb
+  emulated_hue: false
+
+# Arbetsrum
+switch.tellstick_13_switch:
+  friendly_name: Fönster
+  icon: mdi:lightbulb
+  emulated_hue: false
+switch.tellstick_8_switch:
+  friendly_name: Vägglampa
+  icon: mdi:lightbulb
+  emulated_hue: false
+
+# Gästrum
+switch.tellstick_4_switch:
+  friendly_name: Fönster
+  icon: mdi:lightbulb
+  emulated_hue: false
+
+# Gym
+switch.tellstick_5_switch:
+  friendly_name: Fönster
+  icon: mdi:lightbulb
+  emulated_hue: false
+
+# Sovrum
+switch.tellstick_10_switch:
+  friendly_name: Fönster
+  icon: mdi:lightbulb
+  emulated_hue: false
+
+sensor.jonna_arnells_iphone_battery_level:
+  friendly_name: Jonna telefon batteri

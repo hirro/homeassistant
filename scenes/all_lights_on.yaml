@@ -1,0 +1,24 @@
+name: All Lights On
+entities:
+  switch.tellstick_13_switch:
+    state: on
+  switch.tellstick_3_switch:
+    state: on
+  switch.tellstick_4_switch:
+    state: on
+  switch.tellstick_5_switch:
+    state: on
+  switch.tellstick_6_switch:
+    state: on
+  switch.tellstick_7_switch:
+    state: on
+  switch.tellstick_8_switch:
+    state: on
+  switch.tellstick_9_switch:
+    state: on
+  switch.tellstick_10_switch:
+    state: on
+  switch.tellstick_11_switch:
+    state: on
+  switch.tellstick_12_switch:
+    state: on

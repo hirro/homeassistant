@@ -1,0 +1,3 @@
+platform: ios
+name: ios_niobe
+target: !secret ios_pushtoken_niobe

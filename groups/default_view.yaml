@@ -1,0 +1,18 @@
+name: DEFAULT
+view: yes
+icon: mdi:home
+entities:
+  - sensor.yr_symbol
+  - device_tracker.ios_jimpa
+  - device_tracker.ios_jonna_1
+  - device_tracker.ios_jonna_2
+  - group.switches_vardagsrum
+  - group.switches_gym
+  - group.switches_arbetsrum
+  - group.switches_allrum
+  - group.switches_sovrum
+  - group.switches_niobes_rum
+  - group.switches_gastrum
+  # - group.sensor_battery_levels
+  - scene.all_lights_off
+  - scene.all_lights_on

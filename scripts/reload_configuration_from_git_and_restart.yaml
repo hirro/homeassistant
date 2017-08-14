@@ -1,0 +1,4 @@
+# Pull latest from git
+sequence:
+  - service: shell_command.git_pull
+  - service: homeassistant.restart

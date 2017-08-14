@@ -1,0 +1,11 @@
+platform: opencv
+name: Front Door Faces
+source:
+  - entity_id: camera.uvc_g3_dome
+classifer:
+  # pedestrians: /config/opencv/hogcascade_pedestrians.xml
+  # frontalface_improved: /config/opencv/lbpcascade_frontalface_improved.xml
+  lbpcascade_frontalface: /config/opencv/lbpcascade_frontalface.xml
+  # - entity_id: camera.langsida
+  # - entity_id: camera.baksida
+  # - entity_id: camera.baksida_2

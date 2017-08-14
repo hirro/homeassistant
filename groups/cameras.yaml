@@ -1,0 +1,8 @@
+name: Cameras
+entities:
+- camera.baksida
+- camera.baksida_2
+- camera.framsida
+- camera.langsida
+- camera.uvc_g3_dome
+# - camera.opencv_camera

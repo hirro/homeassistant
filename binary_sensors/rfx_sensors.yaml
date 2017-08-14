@@ -1,0 +1,14 @@
+platform: rfxtrx
+automatic_add: True
+debug: True
+devices:
+  0b110000015c79aa0a010f80:
+    name: Tvättstuga
+    device_class: motion
+    off_delay:
+      seconds: 120  
+  0b110027015c72220a010f80:
+    name: Entre 
+    device_class: motion
+    off_delay:
+      seconds: 120  

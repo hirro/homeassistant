@@ -1,0 +1,5 @@
+platform: generic
+name: Baksida DCS-5222LB
+still_image_url: http://192.168.1.78/dms?nowprofileid=1&0.7344387917460233
+username: admin
+password: !secret dlink_pw_4

@@ -1,0 +1,3 @@
+platform: ios
+name: ios_jimpa
+target: !secret ios_pushtoken_jimpa

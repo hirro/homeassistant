@@ -1,0 +1,5 @@
+name: Cameras
+view: yes
+icon: mdi:cctv
+entities:
+  - group.cameras

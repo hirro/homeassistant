@@ -1,0 +1,7 @@
+platform: rfxtrx
+automatic_add: True
+devices:
+  0b11000f004bf64604000080:
+    name:  Gym
+
+

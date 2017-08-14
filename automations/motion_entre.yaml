@@ -1,0 +1,35 @@
+alias: "Motion Entre"
+# id: '1500704282752'
+trigger:
+- platform: state
+  entity_id: binary_sensor.entre
+  from: 'off'
+  to: 'on'
+condition:
+  - condition: or
+    conditions:
+      - condition: state
+        entity_id: input_select.notifications_entre
+        state: 'Always'
+      - condition: and
+        conditions:
+          - condition: state
+            entity_id: input_select.notifications_entre
+            state: 'Away'
+          - condition: state
+            entity_id: device_tracker.ios_jimpa
+            state: not_home
+          - condition: state
+            entity_id: device_tracker.ios_jonna_1
+            state: not_home
+action:
+- alias: Send notification to Jim
+  data:
+    title: Motion    
+    message: "Entre (1)"
+  service: notify.ios_jimpa
+- alias: Send notification to Jonna
+  data:
+    title: Motion    
+    message: "Entre (2)"
+  service: notify.ios_jonna_1  

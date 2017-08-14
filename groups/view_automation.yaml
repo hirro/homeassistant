@@ -1,0 +1,9 @@
+name: Automation
+view: yes
+icon: mdi:home-automation
+entities:
+- script.reload_configuration_from_git_and_restart
+- input_select.notifications_entre
+- input_select.notifications_tvattstuga
+- binary_sensor.entre
+- binary_sensor.tvattstuga

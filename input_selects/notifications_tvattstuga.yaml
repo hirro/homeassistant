@@ -1,0 +1,7 @@
+name: Send notifications when motion is detected in Tvättstuga
+options:
+  - Never
+  - Away
+  - Always
+initial: Away
+icon: mdi:run-fast

@@ -1,0 +1,4 @@
+name: Arbetsrum
+entities:
+  - switch.tellstick_13_switch
+  - switch.tellstick_8_switch

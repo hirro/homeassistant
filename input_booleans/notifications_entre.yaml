@@ -1,0 +1,3 @@
+name: Send notifications when motion is detected in entre
+initial: on
+icon: mdi:run-fast

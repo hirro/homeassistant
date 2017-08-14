@@ -1,0 +1,13 @@
+alias: "Apple TV started playing"
+trigger:
+  - platform: state
+    entity_id: media_player.apple_tv
+    to: 'playing'
+condition:
+  - condition: sun
+    after: sunset
+    after_offset: "-1:00:00"
+action:
+  - service: homeassistant.turn_off
+    entity_id: group.vardagsrum
+

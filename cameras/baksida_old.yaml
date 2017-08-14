@@ -1,0 +1,5 @@
+platform: generic
+name: Baksida
+still_image_url: http://192.168.1.71/cgi-bin/viewer/video.jpg?streamid=0
+username: admin
+password: !secret dlink_pw_1

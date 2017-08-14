@@ -1,0 +1,7 @@
+name: Send notifications when motion is detected in entre
+options:
+  - Never
+  - Away
+  - Always
+initial: Always
+icon: mdi:run-fast
