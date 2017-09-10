@@ -23,13 +23,9 @@ condition:
             entity_id: device_tracker.ios_jonna_1
             state: not_home
 action:
-- alias: Send notification to Jim
+  service: notify.ios_notification_group
   data:
-    title: Motion
-    message: "Tvättstuga (1)"
-  service: notify.ios_jimpa
-- alias: Send notification to Jonna
-  data:
-    title: Motion
-    message: "Tvättstuga (2)"
-  service: notify.ios_jonna_1  
+    message: "Motion detected, tvattstuga"
+    data:
+      subtitle: "Tvattstuga"
+

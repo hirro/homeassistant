@@ -25,6 +25,6 @@ condition:
 action:
   service: notify.ios_notification_group
   data:
-    message: "Motion detected"
+    message: "Motion detected, entre"
     data:
       subtitle: "Entre"
