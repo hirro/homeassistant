@@ -3,4 +3,4 @@ platform: group
 services:
   - service: ios_jimpa
   - service: ios_jonna
-  - service: ios_niobe
+  # - service: ios_niobe
