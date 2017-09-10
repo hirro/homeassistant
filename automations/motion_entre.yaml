@@ -23,18 +23,8 @@ condition:
             entity_id: device_tracker.ios_jonna_1
             state: not_home
 action:
-  - alias: Send notification to Jim
+  service: notify.ios_notification_group
+  data:
+    message: "Motion detected"
     data:
-      title: Motion    
-      message: "Entre (1)"
-    service: notify.ios_jimpa
-  - alias: Send notification to Jonna
-    data:
-      title: Motion    
-      message: "Entre (2)"
-    service: notify.ios_jonna_1  
-  - alias: Send notification via PushBullet
-    data:
-      title: Motion    
-      message: "Entre (2)"
-    service: notify.pushbullet
+      subtitle: "Entre"
