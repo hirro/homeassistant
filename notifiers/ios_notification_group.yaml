@@ -1,7 +1,6 @@
-notify:
-  - name: ios_notification_group
-    platform: group
-    services:
-      - service: ios_jimpa
-      - service: ios_jonna
-      - service: ios_niobe
+name: ios_notification_group
+platform: group
+services:
+  - service: ios_jimpa
+  - service: ios_jonna
+  - service: ios_niobe
