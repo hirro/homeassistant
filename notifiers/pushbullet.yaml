@@ -1,0 +1,4 @@
+notify:
+  - name: pushbullet
+    platform: pushbullet
+    api_key: !pushbullet_api_key
