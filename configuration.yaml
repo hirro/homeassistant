@@ -96,6 +96,8 @@ logger:
     homeassistant.components.zwave: error
     homeassistant.components.websocket_api: error
     homeassistant.components.rfxtrx: info
+    homeassistant.components.libopenzwave: info
+    homeassistant.components.openzwave: info
     custom_components.camera.opencv: debug
 
 

@@ -1,7 +1,7 @@
 alias: "Motion Entre"
 # id: '1500704282752'
 trigger:
-- platform: state
+  platform: state
   entity_id: binary_sensor.entre
   from: 'off'
   to: 'on'
