@@ -2,3 +2,4 @@ name: Allrum
 entities:
   - switch.tellstick_12_switch  
   - switch.tellstick_6_switch
+  - light.light_5
