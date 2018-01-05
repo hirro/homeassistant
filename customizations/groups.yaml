@@ -12,7 +12,7 @@ switch.tellstick_6_switch:
 
 # Vardagsrum
 switch.tellstick_3_switch:
-  friendly_name: Hylllampa vid spegel (mot fonstret)
+  friendly_name: Hylllampa vid spegel (mot fönstret)
   icon: mdi:lightbulb
   emulated_hue: false    
 switch.tellstick_7_switch:
@@ -24,11 +24,11 @@ switch.tellstick_11_switch:
   icon: mdi:lightbulb
   emulated_hue: false
 light.light_1:
-  friendly_name: Fonster inner
+  friendly_name: Fönsterlampan närmst spegeln
   icon: mdi:lightbulb
   emulated_hue: false    
 light.light_2:
-  friendly_name: Fonster ytter
+  friendly_name: Fönsterlampan från spegeln
   icon: mdi:lightbulb
   emulated_hue: false    
 light.light_3:
@@ -52,7 +52,7 @@ switch.tellstick_13_switch:
   icon: mdi:lightbulb
   emulated_hue: false
 switch.tellstick_8_switch:
-  friendly_name: Vägglampa
+  friendly_name: Golvlampa
   icon: mdi:lightbulb
   emulated_hue: false
 light.light_5:
