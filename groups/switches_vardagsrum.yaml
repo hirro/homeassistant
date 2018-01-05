@@ -4,3 +4,4 @@ entities:
   - switch.tellstick_7_switch
   - switch.tellstick_11_switch    
   - light.light_1
+  - light.light_2
