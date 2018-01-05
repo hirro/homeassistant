@@ -23,19 +23,19 @@ switch.tellstick_11_switch:
   friendly_name: Hall
   icon: mdi:lightbulb
   emulated_hue: false
-switch.light.light_1:
+light.light_1:
   friendly_name: Fonster inner
   icon: mdi:lightbulb
   emulated_hue: false    
-switch.light.light_2:
+light.light_2:
   friendly_name: Fonster ytter
   icon: mdi:lightbulb
   emulated_hue: false    
-switch.light.light_3:
+light.light_3:
   friendly_name: Vägglampan vid spegeln
   icon: mdi:lightbulb
   emulated_hue: false    
-switch.light.light_4:
+light.light_4:
   friendly_name: Vägglampan vid fönster
   icon: mdi:lightbulb
   emulated_hue: false    
@@ -55,7 +55,7 @@ switch.tellstick_8_switch:
   friendly_name: Vägglampa
   icon: mdi:lightbulb
   emulated_hue: false
-switch.light.light_5:
+light.light_5:
   friendly_name: Vägglampan
   icon: mdi:lightbulb
   emulated_hue: false
