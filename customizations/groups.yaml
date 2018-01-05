@@ -25,15 +25,19 @@ switch.tellstick_11_switch:
   emulated_hue: false
 switch.light.light_1:
   friendly_name: Fonster inner
+  icon: mdi:lightbulb
   emulated_hue: false    
 switch.light.light_2:
   friendly_name: Fonster ytter
+  icon: mdi:lightbulb
   emulated_hue: false    
 switch.light.light_3:
   friendly_name: Vägglampan vid spegeln
+  icon: mdi:lightbulb
   emulated_hue: false    
 switch.light.light_4:
   friendly_name: Vägglampan vid fönster
+  icon: mdi:lightbulb
   emulated_hue: false    
 
 # Niobes rum
@@ -53,6 +57,7 @@ switch.tellstick_8_switch:
   emulated_hue: false
 switch.light.light_5:
   friendly_name: Vägglampan
+  icon: mdi:lightbulb
   emulated_hue: false
   
 # Gästrum
