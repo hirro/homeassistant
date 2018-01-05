@@ -4,9 +4,12 @@ switch.tellstick_12_switch:
   friendly_name: Ljus under Soffan
   icon: mdi:lightbulb
   emulated_hue: false
-
 switch.tellstick_6_switch:
-  friendly_name: Vägglampa
+  friendly_name: Golvlampa
+  icon: mdi:lightbulb
+  emulated_hue: false
+light.light_5:
+  friendly_name: Vägglampan
   icon: mdi:lightbulb
   emulated_hue: false
 
@@ -53,10 +56,6 @@ switch.tellstick_13_switch:
   emulated_hue: false
 switch.tellstick_8_switch:
   friendly_name: Golvlampa
-  icon: mdi:lightbulb
-  emulated_hue: false
-light.light_5:
-  friendly_name: Vägglampan
   icon: mdi:lightbulb
   emulated_hue: false
   
