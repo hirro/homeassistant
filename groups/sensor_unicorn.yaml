@@ -1,7 +1,8 @@
-name: Unicor
+name: Unicorn
 entities:
-  - sensor.epyon_uptime
-  - sensor.epyon_cpu_load
-  - sensor.epyon_disk_use
-  - sensor.epyon_ram_use
-  - sensor.epyon_swap_use
+  - sensor.unicorn_cpu_load
+  - sensor.unicorn_disk_used
+  - sensor.unicorn_ram_used
+  - sensor.unicorn_swap_used
+  - sensor.unicorn_containers_cpu_used
+  - sensor.unicorn_containers_ram_used

@@ -1,7 +1,8 @@
 name: Zero
 entities:
-  - sensor.zero_uptime
   - sensor.zero_cpu_load
-  - sensor.zero_disk_use
-  - sensor.zero_ram_use
-  - sensor.zero_swap_use
+  - sensor.zero_disk_used
+  - sensor.zero_ram_used
+  - sensor.zero_swap_used
+  - sensor.zero_containers_cpu_used
+  - sensor.zero_containers_ram_used
