@@ -2,7 +2,12 @@ platform: glances
 host: 192.168.1.21
 name: unicorn
 resources:
-  - 'disk_used'
-  - 'ram_used'
-  - 'swap_used'
-  - 'cpu_load'
+  - 'disk_use_percent'
+  - 'disk_use'
+  - 'memory_use_percent'
+  - 'memory_use'
+  - 'swap_use_percent'
+  - 'swap_use'
+  - 'processor_load'
+  - 'docker_cpu_use'
+  - 'docker_memory_use'
