@@ -1,8 +1,8 @@
 name: Epyon
 entities:
-  - sensor.epyon_cpu_load
-  - sensor.epyon_disk_used
-  - sensor.epyon_ram_used
-  - sensor.epyon_swap_used
-  - sensor.epyon_containers_cpu_used
-  - sensor.epyon_containers_ram_used
+  - sensor.epyon.cpu_load
+  - sensor.epyon.disk_used
+  - sensor.epyon.ram_used
+  - sensor.epyon.swap_used
+  - sensor.epyon.containers_cpu_used
+  - sensor.epyon.containers_ram_used

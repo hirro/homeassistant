@@ -1,6 +1,7 @@
 platform: glances
 host: 192.168.1.22
 name: epyon
+port: 61208
 version: 2
 resources:
   - 'disk_use_percent'
