@@ -1,5 +1,5 @@
-platform: opencv
-camera: camera.uvc_g3_dome
-processor: image_processing.opencv_uvc_g3_dome
-# Optional Parameters
-name: OpenCV Camera
+# platform: opencv
+# camera: camera.uvc_g3_dome
+# processor: image_processing.opencv_uvc_g3_dome
+# # Optional Parameters
+# name: OpenCV Camera

@@ -3,6 +3,6 @@ entities:
 - camera.baksida
 - camera.baksida_2
 - camera.framsida
-- camera.langsida
-- camera.uvc_g3_dome
+- camera.entre
+- camera.entre
 # - camera.opencv_camera
