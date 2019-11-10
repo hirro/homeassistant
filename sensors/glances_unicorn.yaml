@@ -1,6 +1,7 @@
 platform: glances
 host: 192.168.1.21
 name: unicorn
+version: 2
 resources:
   - 'disk_use_percent'
   - 'disk_use'
