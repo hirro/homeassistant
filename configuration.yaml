@@ -21,9 +21,9 @@ recorder:
 # Enables configuration UI
 config:
 
-http:
-  api_password: !secret http_password
-  base_url: !secret http_host
+# auth_providers:
+#  - type: legacy_api_password
+#    api_password: !secret http_password
 
 # Checks for available updates
 # Note: This component will send some information about your system to
@@ -49,9 +49,12 @@ logbook:
 # Track the sun
 sun:
 
+# System Health
+system_health:
+
 # Text to speech
 tts:
-  platform: google
+  platform: google_translate
 
 ##ZWave Devices
 zwave:
@@ -86,12 +89,20 @@ media_player: !include_dir_list media_players
 #image_processing: !include_dir_list image_processing
 notify: !include_dir_list notifiers
 
+unifi:
+  controllers:
+    - host: unifi
+      site: 192.168.1.22
+      ssid_filter:
+        - 'AC'
+        - 'AC_INTERNAL'
+
 logger:
   default: info
   logs:
     # homeassistant.components.camera: critical
     homeassistant.core: warning
-    homeassistant.components.media_player.spotify: info    
+    homeassistant.components.media_player.spotify: info
     homeassistant.components.http: error
     homeassistant.components.image_processing: debug
     homeassistant.components.zwave: error
@@ -100,6 +111,3 @@ logger:
     homeassistant.components.libopenzwave: info
     homeassistant.components.openzwave: info
     custom_components.camera.opencv: debug
-
-
-      
