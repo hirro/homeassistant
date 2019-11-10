@@ -1,16 +1,14 @@
 ios_jimpa:
   name: Jim
-  mac: 40:cb:c0:3d:08:bd
+  mac: f8:2d:7c:ec:89:7a
   track: yes
-  picture: 
+  picture:
   hide_if_away: no
   gravatar: jim@arnellconsulting.com
 ios_jonna_1:
   name: Jonna 1
   mac: 90:60:f1:e4:fe:26
-  picture: 
+  picture:
   track: yes
   hide_if_away: no
   gravatar: jonna@arnellconsulting.com
-
-
