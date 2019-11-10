@@ -1,4 +1,5 @@
 platform: generic
 name: Entre
 stream_source: rtsp://192.168.1.163:7447/MOaddu4E3yfkjHAs
-still_image_url: http://192.168.1.181/snap.jpg
+# still_image_url: http://192.168.1.181/snap.jpg
+still_image_url: https://loremflickr.com/320/240

@@ -1,4 +1,5 @@
 platform: generic
 name: Baksida
 stream_source: rtsp://192.168.1.163:7447/2ULi6hrueT2Fdsn8
-still_image_url: http://192.168.1.159/snap.jpg
+# still_image_url: http://192.168.1.159/snap.jpg
+still_image_url: https://loremflickr.com/320/240
