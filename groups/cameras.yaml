@@ -2,7 +2,6 @@ name: Cameras
 entities:
 - camera.baksida
 - camera.baksida_2
-- camera.framsida
-- camera.entre
+- camera.langsida
 - camera.entre
 # - camera.opencv_camera
