@@ -67,6 +67,15 @@ rfxtrx:
   device: /dev/ttyUSB0
   debug: True
 
+# Mobile component (default_config)
+mobile_app:
+
+# Person component (default_config)
+person:
+
+# Cloud (default_config)
+cloud:
+
 # IOS component
 ios:
 
